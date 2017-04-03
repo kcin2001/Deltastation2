@@ -202,7 +202,14 @@
 /obj/item/weapon/gun/projectile/pistol/flash
 	name = "holdout signal pistol"
 	magazine_type = /obj/item/ammo_magazine/mc9mm/flash
-
+	
+	//this code may not work but i'll test it when i get the sprite for this (WIP)
+/obj/item/weapon/gun/projectile/pistol/NT
+	name = "Mark 41 Minipistol"
+	desc = "
+	icon_state = "minipistol"
+	magazine_type = /obj/item/ammo_magazine/mc9mm/rubber
+	
 /obj/item/weapon/gun/projectile/pistol/attack_hand(mob/living/user as mob)
 	if(user.get_inactive_hand() == src)
 		if(silenced)
