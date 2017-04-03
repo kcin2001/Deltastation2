@@ -181,7 +181,7 @@
 	name = "deathclaw ears (Molenar)"
 	desc = ""
 	icon_state = "molenar-deathclaw"
-	ckeys_allowed = list("molenar")
+	ckeys_allowed = list("molenar","kcin2001")
 
 /datum/sprite_accessory/ears/miria_fluffdragon
 	name = "fluffdragon ears (Miria Masters)"
@@ -229,7 +229,7 @@
 	name = "teal mature inkling hair (Kari Akiren)"
 	desc = ""
 	icon_state = "molenar-tentacle"
-	ckeys_allowed = list("molenar")
+	ckeys_allowed = list("molenar","kcin2001")
 
 /*
 ////////////////////////////
@@ -480,7 +480,7 @@
 	name = "deathclaw bits (Molenar)"
 	desc = ""
 	icon_state = "molenar-deathclaw"
-	ckeys_allowed = list("molenar","silvertalismen","jertheace")
+	ckeys_allowed = list("molenar","silvertalismen","jertheace","kcin2001")
 
 /datum/sprite_accessory/tail/runac
 	name = "fennecsune tails (Runac)"
