@@ -37,7 +37,7 @@
 	name = "weapon power cell"
 	desc = "A small power cell designed to power handheld weaponry."
 	icon_state = "wcell"
-	maxcharge = 2400
+	maxcharge = 6000 //denson station edit
 
 /obj/item/weapon/cell/crap
 	name = "\improper rechargable AA battery"
