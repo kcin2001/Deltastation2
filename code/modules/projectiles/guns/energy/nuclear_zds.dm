@@ -23,7 +23,7 @@
 	force = 12
 	fire_delay = 8 //Faster than a normal Egun
 	projectile_type = /obj/item/projectile/beam/stun/strong
-	modifystate = "oldenergy"
+	modifystate = "oldenergystun"
 
 	firemodes = list(
 		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun/strong, modifystate="oldenergystun", fire_sound='sound/weapons/Taser.ogg', charge_cost = 240),
