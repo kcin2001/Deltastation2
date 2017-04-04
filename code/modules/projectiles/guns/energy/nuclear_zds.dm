@@ -8,7 +8,7 @@
 	w_class = ITEMSIZE_SMALL //Able to fit in a pocket
 	cell_type = /obj/item/weapon/cell/device/weapon/small //Small power cell
 	projectile_type = /obj/item/projectile/beam/stun/veryweak
-	modifystate = mini
+	modifystate = "mini"
 
 	firemodes = list(
 		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun/veryweak, modifystate="ministun", fire_sound='sound/weapons/Taser.ogg', charge_cost = 240),
