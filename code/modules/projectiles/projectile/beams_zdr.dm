@@ -1,7 +1,7 @@
 /obj/item/projectile/beam/stun/veryweak
 	name = "very weak stun beam"
 	icon_state = "stun"
-	agony = 15 //A bit more than half of the damage a weak stunbeam has
+	agony = 35 //A bit less than a stunbeam has
 
 /obj/item/projectile/beam/stun/strong
 	name = "strong stun beam"
