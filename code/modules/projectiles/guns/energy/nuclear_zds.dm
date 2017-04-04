@@ -15,3 +15,17 @@
 		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun/veryweak, modifystate="ministun", fire_sound='sound/weapons/Taser.ogg', charge_cost = 240),
 		list(mode_name="lethal", projectile_type=/obj/item/projectile/beam/weaklaser, modifystate="minikill", fire_sound='sound/weapons/Laser.ogg', charge_cost = 480),
 		)
+
+/obj/item/weapon/gun/energy/gun/advancedegun
+	name = "Advanced Energy Gun"
+	desc = "An advanced energy gun. It has two settings: Kill and Stun"
+	icon_state = "oldenergy100"
+	force = 12
+	fire_delay = 8 //Faster than a normal Egun
+	projectile_type = /obj/item/projectile/beam/stun/strong
+	modifystate = "oldenergystun"
+
+	firemodes = list(
+		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun/strong, modifystate="oldenergystun", fire_sound='sound/weapons/Taser.ogg', charge_cost = 240),
+		list(mode_name="lethal", projectile_type=/obj/item/projectile/beam/strong, modifystate="oldenergykill", fire_sound='sound/weapons/Laser.ogg', charge_cost = 480),
+		)
