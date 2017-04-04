@@ -1331,6 +1331,7 @@
 #include "code\modules\clothing\spacesuits\rig\suits\ert.dm"
 #include "code\modules\clothing\spacesuits\rig\suits\light.dm"
 #include "code\modules\clothing\spacesuits\rig\suits\merc.dm"
+#include "code\modules\clothing\spacesuits\rig\suits\rigsuits_zdm.dm"
 #include "code\modules\clothing\spacesuits\rig\suits\station.dm"
 #include "code\modules\clothing\spacesuits\rig\suits\station_vr.dm"
 #include "code\modules\clothing\spacesuits\void\merc.dm"
