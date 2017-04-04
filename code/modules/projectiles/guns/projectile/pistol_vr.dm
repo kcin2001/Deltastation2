@@ -8,6 +8,7 @@
 	icon = 'icons/obj/gun_vr.dmi'
 	icon_state = "minipistol"
 	item_state = null
+	fire_delay = 4
 	w_class = ITEMSIZE_SMALL
 	caliber = "9mm"
 	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2, TECH_ILLEGAL = 2)
