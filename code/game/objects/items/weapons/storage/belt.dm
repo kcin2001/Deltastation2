@@ -145,7 +145,7 @@
 		/obj/item/clothing/accessory/badge,
 		/obj/item/weapon/gun/projectile/sec,
 		/obj/item/taperoll,
-		/obj/item/weapon/gun/projectile/colt/detective
+		/obj/item/weapon/gun/projectile/colt/detective,
 		/obj/item/weapon/gun/projectile/nt //denson station edit
 		)
 
