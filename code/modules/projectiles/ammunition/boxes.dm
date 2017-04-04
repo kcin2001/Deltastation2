@@ -39,7 +39,7 @@
 	ammo_type = /obj/item/ammo_casing/c45
 	matter = list(DEFAULT_WALL_MATERIAL = 525) //metal costs are very roughly based around 1 .45 casing = 75 metal
 	caliber = ".45"
-	max_ammo = 12
+	max_ammo = 12 //densonstation edit (previously seven i think)
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/c45m/empty
