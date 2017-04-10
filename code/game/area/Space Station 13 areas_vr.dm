@@ -191,3 +191,19 @@
 /area/houseboat/dining_area
 	name = "Houseboat - Dining Area"
 	icon_state = "red"
+//executive areas
+/area/executive/hallway
+	name = "Executive-Hallway"
+	icon_state = "exec_hall"
+/area/executive/corridor
+	name = "Executive-Corridor"
+	icon_state = "exec_corridor"
+/area/executive/office1
+	name = "Executive-Office1"
+	icon_state = "exec_office1"
+/area/executive/office2
+	name = "Executive-Office2"
+	icon_state = "exec_office2"
+/area/executive/dceo
+	name = "Executive-DCEO"
+	icon_state = "exec_dceo"
